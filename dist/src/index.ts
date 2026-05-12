@@ -1,12 +1,10 @@
-// src/index.ts
-
 import { ZodSchema } from "zod";
 
 import { fakeStudentData } from "./data/fakeData";
 import { studentSchema } from "./schemas/stodent.schema";
 
 
-// reusable validation function
+
 const validateData = <T>(
   schema: ZodSchema<T>,
   data: unknown
