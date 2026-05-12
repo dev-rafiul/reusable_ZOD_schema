@@ -1,4 +1,3 @@
-// src/schemas/student.schema.ts
 
 import { z } from "zod";
 import { userSchema } from "./user.schemas";
