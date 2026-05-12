@@ -1,8 +1,9 @@
 // src/index.ts
 
 import { ZodSchema } from "zod";
-import { studentSchema } from "./schemas/student.schema";
+
 import { fakeStudentData } from "./data/fakeData";
+import { studentSchema } from "./schemas/stodent.schema";
 
 
 // reusable validation function
