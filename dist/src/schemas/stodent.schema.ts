@@ -7,3 +7,6 @@ export const studentSchema = userSchema.extend({
   course: z.string(),
   teacher: z.string().optional(),
 });
+
+
+// students
